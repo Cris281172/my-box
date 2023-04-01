@@ -1,0 +1,29 @@
+.box{
+  margin: 15px 0 0 0;
+  .link{
+    text-decoration: none;
+    padding: 8px 20px;
+    justify-content: space-between;
+    background-color: #497b17;
+    display: flex;
+    align-items: center;
+    .boxImage{
+      width: 100px;
+    }
+    .boxName{
+      color: #e6dd7d;
+      font-size: 20px;
+      .decoration{
+        color: #fff;
+      }
+    }
+  }
+}
+
+@media(max-width: 1000px){
+  .box{
+    .link{
+      justify-content: flex-start;
+    }
+  }
+}

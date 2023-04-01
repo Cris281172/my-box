@@ -1,0 +1,67 @@
+.contact{
+  max-width: 1256px;
+  margin: 75px auto;
+  .title{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: #008000;
+  }
+  .contactList{
+    margin: 30px 0 0 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .contactItem{
+      display: flex;
+      align-items: center;
+      background-color: #487a16;
+      margin: 20px 0 0 0;
+      padding: 15px 25px;
+      border-radius: 8px;
+      .contactItemTitle{
+        font-size: 26px;
+        color: #fff;
+      }
+      .phoneWrapper{
+        align-items: center;
+        display: flex;
+        .phoneLogo{
+          color: #fff;
+          font-size: 26px;
+          margin: 0 2px 0 10px;
+        }
+        .phone{
+          font-size: 22px;
+          text-decoration: none;
+          color: #fff;
+        }
+      }
+      .emailWrapper{
+        display: flex;
+        align-items: center;
+        .emailLogo{
+          color: #fff;
+          font-size: 26px;
+          margin: 0 5px 0 10px;
+        }
+        .emailText{
+          font-size: 22px;
+          text-decoration: none;
+          color: #fff;
+        }
+      }
+
+    }
+  }
+}
+
+@media(max-width: 500px){
+  .contact{
+    .contactList{
+      .contactItem{
+        flex-direction: column;
+      }
+    }
+  }
+}

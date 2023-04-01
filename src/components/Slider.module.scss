@@ -1,0 +1,24 @@
+.swiper{
+  height: 800px;
+  width: 100%;
+  .first{
+    background-image: url('../images/lantern.jpg');
+  }
+  .second{
+    background-image: url('../images/mosque.jpg');
+  }
+  .third{
+    background-image: url('../images/asia.jpg');
+  }
+  .fourth{
+    background-image: url('../images/rome.jpg');
+  }
+  .fifth{
+    background-image: url('../images/stars.jpg');
+  }
+  .swiperSlide{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}

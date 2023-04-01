@@ -1,0 +1,40 @@
+.aboutUs{
+  max-width: 1256px;
+  margin: 0 auto;
+  padding: 100px 0;
+  .mainTitle{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: #008000;
+  }
+  .informationSection{
+    display: flex;
+    margin: 0 25px 20px 25px;
+    align-items: center;
+    .leftSection{
+      margin: 0 50px 0 0;
+      .sectionTitle{
+        color: #008000;
+        font-weight: bold;
+        font-size: 24px;
+      }
+      .sectionText{
+        font-size: 16px;
+        margin: 5px 0 0 0;
+      }
+    }
+    .kebabBoxImage{
+      width: 250px;
+    }
+  }
+}
+
+@media(max-width: 700px){
+  .aboutUs{
+    .informationSection{
+      flex-direction: column;
+      margin: 25px 25px 20px 25px;
+    }
+  }
+}

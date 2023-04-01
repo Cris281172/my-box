@@ -1,0 +1,107 @@
+.footerWrapper{
+  background-color: #577d17;
+  padding: 50px 0 ;
+  .footer{
+    padding: 0 25px 50px 25px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.49);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1256px;
+    margin: 0 auto;
+    .logo{
+      width: 150px;
+      border-radius: 8px;
+    }
+    .contactInformation{
+      .phoneNumber{
+        display: flex;
+        align-items: center;
+        .phoneLogo{
+          color: #ffffff;
+          font-size: 26px;
+        }
+        .phone{
+          text-decoration: none;
+          margin: 0 0 0 6px;
+          font-size: 20px;
+          color: #fff;
+        }
+      }
+      .socials{
+        margin: 6px 0 0 0;
+        .facebook{
+          cursor: pointer;
+          font-size: 30px;
+          color: #fff;
+          margin: 0 4px 0 0;
+          transition: 0.4s;
+          &:hover{
+            color: #1877f2;
+          }
+        }
+        .youtube{
+          cursor: pointer;
+          font-size: 30px;
+          color: #fff;
+          transition: 0.4s;
+          &:hover{
+            color: #ff0000;
+          }
+        }
+      }
+      .email{
+        margin: 6px 0 0 0;
+        display: flex;
+        .emailLogo{
+          font-size: 26px;
+          color: #fff;
+        }
+        .emailText{
+          text-decoration: none;
+          margin: 0 0 0 6px;
+          font-size: 20px;
+          color: #fff;
+        }
+      }
+    }
+    .companyDetails{
+      font-size: 20px;
+      color: #fff;
+      line-height: 25px;
+    }
+  }
+  .bottomInformation{
+    margin: 25px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .copyright{
+      color: #fff;
+    }
+    .author{
+      text-decoration: none;
+      margin: 0 0 5px 0;
+      font-size: 22px;
+      color: #fff;
+      text-align: center;
+      .name{
+        color: #e6dd7d;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+@media(max-width: 800px){
+  .footerWrapper{
+    .footer{
+      flex-direction: column;
+      align-items: flex-start;
+      .contactInformation{
+        margin: 25px 0;
+      }
+    }
+  }
+}
